@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+cp commands/${1}.rb ~/.config/muzak/commands/
