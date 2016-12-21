@@ -32,7 +32,7 @@ module Muzak
       songs.delete(np)
 
       clear_queue
-      album.songs.each do |song|
+      songs.each do |song|
         player.enqueue_song song
       end
     end
