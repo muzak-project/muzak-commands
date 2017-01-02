@@ -15,6 +15,8 @@ module Muzak
       songs.each do |song|
         player.enqueue_song song
       end
+
+      build_response
     end
 
     def more_from_album
@@ -35,6 +37,8 @@ module Muzak
       songs.each do |song|
         player.enqueue_song song
       end
+
+      build_response
     end
   end
 end
