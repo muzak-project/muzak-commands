@@ -38,6 +38,7 @@ module Muzak
     end
   end
 
+  # XXX: investigate File.fnmatch as a replacement for this
   class Glob
     def self.[](pattern)
       self.compile pattern
